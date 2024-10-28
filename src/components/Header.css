@@ -6,3 +6,10 @@
     z-index: 1; 
     position: relative;
 }
+
+.header-logo {
+    width: 45.28; /* 이미지 크기 설정 */
+    height: 76.39%;
+    margin-left : 0;
+    margin-top : 2.1%;
+  }

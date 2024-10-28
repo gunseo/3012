@@ -9,11 +9,11 @@ function MainContent() {
   };
 
   return (
-    <main className={isClicked ? "main-content2" : "main-content"}
+    <div className={isClicked ? "main-content2" : "main-content"}
       onClick={handleClick}
       >
-        <p className="tap-to-start">{isClicked ? "Tap to Start":"Tap to Stop"}</p>
-    </main>
+        <p className="tap-to-start">{isClicked ? "Tap to Stop":"Tap to Speak"}</p>
+    </div>
   );
 }
 

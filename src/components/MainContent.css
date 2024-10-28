@@ -9,3 +9,13 @@
     height: 74.6875%;
     background: #E8FFED;
 }
+
+.tap-to-start{
+    margin-top : 0;
+    margin-bottom: 0;
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
