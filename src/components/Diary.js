@@ -1,15 +1,15 @@
 import React from "react";
 import "./Diary.css";
-import logo from "../assets/logo3.png";
+import book from "../assets/Book.png";
 
 function Diary() {
   
   return (
     <div className="diary-container">
-        <img src={logo} alt="Logo" className="diary-icon" /> 
+        <img src={book} alt="Logo" className="diary-icon" /> 
         <div className="diary-container2">
-            <p className=""></p>
-            <p className=""></p>
+            <p className="diary-date"> 2024.10.24 </p>
+            <p className="diary-title">오늘은 코딩을 열심히 했다.</p>
         </div>
     </div>
       
