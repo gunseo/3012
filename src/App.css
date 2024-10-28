@@ -1,5 +1,9 @@
 .app-container {
-  width: 360px; 
-  height: 640px; 
+  width: 56.25vh; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
 }
 
