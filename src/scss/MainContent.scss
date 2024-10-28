@@ -1,0 +1,36 @@
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 74.6875%;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .main-content2 {
+    position: relative;
+    width: 100%;
+    height: 74.6875%;
+    background: #E8FFED;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .tap-to-start {
+    font-size: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  

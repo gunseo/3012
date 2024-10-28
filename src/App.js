@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import Diary from "./components/Diary";
+import Archive from "./components/Archive";
 import "./App.css";
 
 
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/maincontent" element={<MainContent />} />
-          <Route path="/diary" element={<Diary />} />
+          <Route path="/archive" element={<Archive />} />
         </Routes>
         <Footer />
       </div>

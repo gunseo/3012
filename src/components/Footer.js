@@ -11,7 +11,7 @@ function Footer() {
     const clickX = e.nativeEvent.offsetX;
 
     if (clickX > footerWidth / 2) {
-      navigate("/diary");
+      navigate("/archive");
     }
     else{
       navigate("/maincontent");
